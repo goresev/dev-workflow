@@ -1,0 +1,19 @@
+{
+  "name": "dev-workflow",
+  "version": "1.0.0",
+  "description": "test some devops things",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/src/server/api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goresev/dev-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goresev/dev-workflow/issues"
+  },
+  "homepage": "https://github.com/goresev/dev-workflow#readme"
+}
