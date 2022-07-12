@@ -4,7 +4,8 @@
   "description": "test some devops things",
   "main": "index.js",
   "scripts": {
-    "start": "node app/src/server/api.js"
+    "start": "node app/src/server/api.js",
+    "test": "mocha app/tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/goresev/dev-workflow/issues"
   },
-  "homepage": "https://github.com/goresev/dev-workflow#readme"
+  "homepage": "https://github.com/goresev/dev-workflow#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
 }
